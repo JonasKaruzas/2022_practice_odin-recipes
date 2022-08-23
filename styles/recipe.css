@@ -1,0 +1,25 @@
+.main-recipe {
+  grid-column: span 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.main-recipe img {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+}
+
+.main-recipe .card {
+  padding: 0 30px;
+}
+
+.main-recipe .card__description {
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .main-recipe {
+    grid-template-columns: 1fr;
+  }
+}
