@@ -67,9 +67,44 @@ main h1 {
 }
 
 .left {
-  background-color: lightsalmon;
+  /* background-color: lightsalmon; */
 }
 
 .right {
-  background-color: lightseagreen;
+  /* background-color: lightseagreen; */
+}
+
+.card__type {
+  text-transform: uppercase;
+  color: lightcoral;
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+
+.card__title {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.card__description {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.card__preparation {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.card__preparation__icon span {
+  font-size: 15px;
+  padding-top: 5px;
+  color: lightcoral;
+}
+
+.card__preparation__time {
+  font-size: 15px;
+  font-weight: 400;
+  color: lightcoral;
 }
